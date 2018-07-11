@@ -1,0 +1,46 @@
+2018-03-27 19:00:24 [main] INFO :: creating object Result{resultID=0, resultStatus='pass', students=[]}
+2018-03-27 19:00:24 [main] INFO :: creating object Sections{sectionID=0, sectionName='A1', students=[]}
+2018-03-27 19:00:24 [main] INFO :: creating object Subjects{subjectID=0, subjectName='Science'}
+2018-03-27 19:00:24 [main] INFO :: creating object Subjects{subjectID=0, subjectName='Math'}
+2018-03-27 19:00:24 [main] INFO :: creating object Students{studentID=0, value=346, result=Result{resultID=0, resultStatus='pass', students=[]}, sections=Sections{sectionID=0, sectionName='A1', students=[]}, subjects=Subjects{subjectID=0, subjectName='Science'}}
+2018-03-27 19:00:24 [main] INFO :: creating object Students{studentID=0, value=1000, result=Result{resultID=0, resultStatus='pass', students=[]}, sections=Sections{sectionID=0, sectionName='A1', students=[]}, subjects=Subjects{subjectID=0, subjectName='Math'}}
+2018-03-27 19:00:25 [main] INFO :: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2018-03-27 19:00:25 [main] INFO :: HHH000412: Hibernate Core {4.3.11.Final}
+2018-03-27 19:00:25 [main] INFO :: HHH000206: hibernate.properties not found
+2018-03-27 19:00:25 [main] INFO :: HHH000021: Bytecode provider name : javassist
+2018-03-27 19:00:25 [main] INFO :: HHH000043: Configuring from resource: /hibernate.cfg.xml
+2018-03-27 19:00:25 [main] INFO :: HHH000040: Configuration resource: /hibernate.cfg.xml
+2018-03-27 19:00:25 [main] WARN :: HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2018-03-27 19:00:25 [main] INFO :: HHH000041: Configured SessionFactory: null
+2018-03-27 19:00:25 [main] WARN :: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2018-03-27 19:00:25 [main] INFO :: HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/school]
+2018-03-27 19:00:25 [main] INFO :: HHH000046: Connection properties: {user=root, password=****, autocommit=true}
+2018-03-27 19:00:25 [main] INFO :: HHH000006: Autocommit mode: true
+2018-03-27 19:00:25 [main] INFO :: HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-03-27 19:00:25 [main] INFO :: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-03-27 19:00:25 [main] INFO :: HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-03-27 19:00:26 [main] INFO :: HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-03-27 19:00:26 [main] INFO :: HHH000397: Using ASTQueryTranslatorFactory
+2018-03-27 19:00:26 [main] INFO :: HV000001: Hibernate Validator 4.3.2.Final
+2018-03-27 19:00:26 [main] INFO :: HHH000228: Running hbm2ddl schema update
+2018-03-27 19:00:26 [main] INFO :: HHH000102: Fetching database metadata
+2018-03-27 19:00:26 [main] INFO :: HHH000396: Updating schema
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Result
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Sections
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Students
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Subjects
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Result
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Sections
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Students
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Subjects
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Result
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Sections
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Students
+2018-03-27 19:00:26 [main] INFO :: HHH000262: Table not found: Subjects
+2018-03-27 19:00:30 [main] INFO :: HHH000232: Schema update complete
+2018-03-27 19:00:30 [main] INFO :: save Student with studentID: 1
+2018-03-27 19:00:30 [main] INFO :: save Student with studentID: 2
+2018-03-27 19:00:30 [main] INFO :: Getting 2 students from database
+2018-03-27 19:00:30 [main] INFO :: Student with StudentID 1 detail: Students{studentID=1, value=346, result=Result{resultID=1, resultStatus='pass', students=[]}, sections=Sections{sectionID=1, sectionName='A1', students=[]}, subjects=Subjects{subjectID=1, subjectName='Science'}}
+2018-03-27 19:00:30 [main] INFO :: Student with StudentID 2 detail: Students{studentID=2, value=1000, result=Result{resultID=1, resultStatus='pass', students=[]}, sections=Sections{sectionID=1, sectionName='A1', students=[]}, subjects=Subjects{subjectID=2, subjectName='Math'}}
+2018-03-27 19:00:30 [main] INFO :: HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/school]
